@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://devenirautonome.fr/index.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://devenirautonome.fr/choisir-lieu-repli.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://devenirautonome.fr/maitriser-eau.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://devenirautonome.fr/energie-hors-reseau.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://devenirautonome.fr/terre-nourriciere.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>
