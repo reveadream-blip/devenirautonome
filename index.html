@@ -72,6 +72,10 @@
         .bg-olive { background-color: #90c420; }
         .border-olive { border-color: #90c420; }
         .hover-bg-olive:hover { background-color: #76a11a; }
+        .troc-highlight {
+            color: #90c420;
+            text-shadow: 0 0 42px rgba(144, 196, 32, 0.55), 0 2px 4px rgba(0, 0, 0, 0.9);
+        }
     </style>
 </head>
 <body class="bg-slate-950 text-slate-300">
@@ -86,12 +90,12 @@
                 </div>
 <span class="text-xl font-black uppercase tracking-tighter text-white">Devenir<span class="text-olive">Autonome</span></span>
             </div>
-            <div class="hidden md:flex gap-8 text-xs font-black uppercase tracking-widest text-slate-400">
-                <a href="#echanges" class="hover:text-white transition text-[10px] tracking-[0.12em]">Troc &amp; Savoir-Faire</a>
-                <a href="#refuge" class="hover:text-white transition">Refuge</a>
-                <a href="#eau" class="hover:text-white transition">L'Eau</a>
-                <a href="#energie" class="hover:text-white transition">Électricité</a>
-                <a href="#vivant" class="hover:text-white transition">Le Vivant</a>
+            <div class="hidden md:flex md:items-center gap-6 lg:gap-8 text-xs font-black uppercase tracking-widest text-slate-400">
+                <a href="#echanges" class="troc-highlight text-sm lg:text-base tracking-[0.18em] px-3 py-2 rounded-sm border border-olive/70 bg-olive/15 hover:bg-olive/25 hover:text-white hover:border-olive transition shadow-[0_0_22px_rgba(144,196,32,0.35)]">Troc &amp; Savoir-Faire</a>
+                <a href="#refuge" class="hover:text-white transition opacity-90">Refuge</a>
+                <a href="#eau" class="hover:text-white transition opacity-90">L'Eau</a>
+                <a href="#energie" class="hover:text-white transition opacity-90">Électricité</a>
+                <a href="#vivant" class="hover:text-white transition opacity-90">Le Vivant</a>
                 <a href="#contact" class="text-olive font-bold">S'isoler maintenant</a>
             </div>
         </div>
@@ -106,8 +110,10 @@
             <span class="inline-block px-4 py-2 bg-slate-900/80 border border-amber-600/50 text-amber-500 text-[11px] font-black uppercase tracking-[0.4em] mb-8 animate-pulse italic rounded-sm shadow-xl">
                 <i class="fas fa-triangle-exclamation mr-2"></i> Rupture de normalité : Se préparer
             </span>
-            <h1 class="text-5xl md:text-8xl font-black text-white leading-none uppercase italic mb-8">
-                Devenir Autonome <br><span class="text-olive italic">Troc &amp; Savoir-Faire et Échange de savoir</span>
+            <h1 class="font-black leading-none uppercase italic mb-8">
+                <span class="block text-4xl md:text-6xl text-white mb-3 md:mb-5">Devenir Autonome</span>
+                <span class="block troc-highlight text-5xl sm:text-6xl md:text-8xl lg:text-9xl tracking-tight">Troc &amp; Savoir-Faire</span>
+                <span class="block text-2xl md:text-4xl text-white/90 font-black mt-3 md:mt-5 tracking-tight">et Échange de savoir</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 italic leading-relaxed">
                 Le système est fragile. Apprenez à bâtir votre autonomie totale : troc local, échange de savoir, échange de bons procédés, services de proximité, eau et énergie solaire. Devenir autonome en électricité est la priorité.
@@ -125,8 +131,10 @@
                     <span class="inline-block px-4 py-2 mb-6 text-[11px] font-black uppercase tracking-[0.3em] text-olive border border-olive/50 bg-slate-950/70 rounded-sm">
                         Nouveau service
                     </span>
-                    <h2 class="text-3xl md:text-5xl font-black text-white uppercase italic leading-tight mb-6">
-                        Échanges locaux : Troc &amp; savoir-faire, services, entraide de proximité
+                    <h2 class="font-black uppercase italic leading-tight mb-6">
+                        <span class="block text-lg md:text-xl text-slate-300 tracking-[0.2em] mb-3">Échanges locaux</span>
+                        <span class="block troc-highlight text-4xl sm:text-5xl md:text-6xl lg:text-7xl">Troc &amp; Savoir-Faire</span>
+                        <span class="block text-xl md:text-2xl text-white mt-3 md:mt-4">services, entraide de proximité</span>
                     </h2>
                     <p class="text-slate-300 text-base md:text-lg leading-relaxed mb-8 max-w-3xl">
                         Rejoignez <strong class="text-white">Troc et Survie</strong> pour organiser du troc alimentaire, l'échange de savoir, des services entre voisins, une messagerie dédiée et une carte de proximité pour trouver rapidement les membres autour de vous.
@@ -146,7 +154,10 @@
 
     <section class="py-20 px-6 bg-slate-900 border-y border-slate-800">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-black text-white uppercase italic mb-6">Troc &amp; savoir-faire, échange de savoir et services de proximité</h2>
+            <h2 class="font-black uppercase italic mb-6">
+                <span class="block troc-highlight text-3xl md:text-5xl">Troc &amp; Savoir-Faire</span>
+                <span class="block text-xl md:text-2xl text-white/90 mt-2">échange de savoir et services de proximité</span>
+            </h2>
             <p class="text-slate-300 leading-relaxed mb-4">
                 Sur DevenirAutonome.fr, nous mettons en avant le <strong class="text-white">troc local</strong>, l'<strong class="text-white">échange de bons procédés</strong> et l'<strong class="text-white">échange de savoir</strong> pour aider chaque foyer à devenir autonome.
             </p>
