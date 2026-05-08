@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://devenirautonome.fr/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://devenirautonome.fr/choisir-lieu-repli.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://devenirautonome.fr/maitriser-eau.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://devenirautonome.fr/energie-hors-reseau.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
 
   <url>
     <loc>https://devenirautonome.fr/terre-nourriciere.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
@@ -39,12 +39,12 @@
     <loc>https://devenirautonome.fr/reseau-autonomie-crise.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.95</priority>
   </url>
 
   <url>
     <loc>https://devenirautonome.fr/merci.html</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>
